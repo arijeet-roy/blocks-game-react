@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "build": "webpack --config ./webpack.config.prod.js --progress --colors"
+    "build": "webpack --config ./webpack.config.prod.js --progress --colors",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "Arijeet Roy <roy.arijeet19@gmail.com>",
+  "homepage": "https://royarijeet19.github.io/blocks-game-react",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.24.1",
