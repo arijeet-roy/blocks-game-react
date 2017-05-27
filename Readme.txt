@@ -1,6 +1,6 @@
 A basic "escape the blocks game" built using ReactJS. This was my first hands on with the React library hence decided to build a small game on top of it. Players need to prevent their block from comming in contact with the incoming enemies which varies in speed and number as the time progresses.
 
-[Play it here.](https://royarijeet19.github.io/blocks-game-react)
+[~Play it here~.](https://royarijeet19.github.io/blocks-game-react)
 
 ----Steps to run on your machine----
 
